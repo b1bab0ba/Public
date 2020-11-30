@@ -9,8 +9,8 @@ int main(){
     std::cout << "Enter the second number : ";
     std::cin >> num2;
 
-    std::cout << (num1 > num2 ? "First is bigger than second" : "");
-    std::cout << (num1 == num2 ? "Numbers are equal" : "");
-    std::cout << (num1 < num2 ? "First is less than second" : "");
+    std::cout << (num1 > num2 ? "First is bigger than second\n" : "");
+    std::cout << (num1 == num2 ? "Numbers are equal\n" : "");
+    std::cout << (num1 < num2 ? "First is less than second\n" : "");
 
 }
